@@ -23,7 +23,7 @@ def pow_integers_two(array):
 
     # We need to fill this out (backwards) from the smallest
     # to the largest integer within the input array.
-    for _ in enumerate(array):
+    for _ in array:
         if abs(array[left]) > array[right]:
             output[counter] = array[left] * array[left]
             left = left + 1
