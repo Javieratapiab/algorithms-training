@@ -25,5 +25,5 @@
 #     else:
 
 
-def num_ways_of_data(data):
-    return helper(data, data.len() - 1)
+# def num_ways_of_data(data):
+#    return helper(data, data.len() - 1)
