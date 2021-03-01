@@ -32,8 +32,8 @@ var mergeTrees = function(t1, t2) {
     if (l1 && l2) {
       const newNode = new TreeNode(t1.val + t2.val);
 
-      newNode.left = mergeList(l1.left, l2.left);
-      newNode.right = mergeList(l1.right, l2.right);
+      newNode.left = merge(l1.left, l2.left);
+      newNode.right = merge(l1.right, l2.right);
 
       return newNode;
     }
